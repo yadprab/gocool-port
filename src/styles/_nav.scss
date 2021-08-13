@@ -1,0 +1,20 @@
+nav {
+
+
+    padding: 3em 1em 0 1em;
+    margin-bottom: 128px;
+
+    .nav--wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desktop--nav {
+        display: none;
+    }
+
+    #navigation--button {
+        @include svg-button;
+    }
+}

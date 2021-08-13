@@ -1,0 +1,70 @@
+.hero--text {
+    padding: 0 1em 3em 1em;
+
+
+
+    h1 {
+
+        font-weight: 700;
+        color: var(--textColor);
+    }
+
+    p {
+        color: var(--textColor);
+        letter-spacing: 0.4em;
+        font-weight: 400;
+
+    }
+
+    .title--wrapper {
+
+        position: relative;
+
+        .brush--stroke {
+            position: absolute;
+            z-index: -1;
+            top: 10px;
+            width: 230px;
+            left: 40px;
+        }
+    }
+
+  
+
+    #chev{
+        margin-left: 4px;
+    }
+}
+
+.hero--image {
+    position: relative;
+ 
+   .gatsby-image-wrapper{
+       left: 80px;
+       height: 400px;
+   }
+    
+
+   
+}
+  .link--id {
+
+      a {
+          @include medium-button;
+          background-color: var(--textColor);
+          border-radius: 50px;
+          color: var(--bg);
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 130px;
+          font-weight: 500;
+
+          svg{
+              margin-left: 8px;
+          }
+
+
+
+      }
+  }
