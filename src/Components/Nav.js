@@ -3,7 +3,9 @@ import { Logo } from "./Logo";
 import { HamIcon } from "./HamIcon";
 import { Link } from "gatsby";
 
-function Nav() {
+function Nav(props) {
+
+  console.log(props);
   return (
     <>
       <nav>

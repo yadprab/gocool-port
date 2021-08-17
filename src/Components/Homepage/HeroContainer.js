@@ -45,7 +45,7 @@ function HeroContainer() {
           transition={{ ease: "easeOut", duration: 1.5 }}
           exit={{ x: 200, opacity: 0 }}
         >
-          <StaticImage src="./HomepageImages/image2.png" alt="gokul" />
+          <StaticImage src="./HomepageImages/imagenew.png" alt="gokul" />
         </motion.div>
       </motion.div>
     </>
